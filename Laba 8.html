@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="ru">
+    
+    <head>
+        <meta charset="UTF-8">
+            <title> Формы </title>
+    </head>
+    
+<body>
+    
+<form action="#">
+    
+    <p>
+        Название футбольного клуба
+        <input type="text" name="nazvanie">
+        <br>
+    </p>
+        
+    
+        <p>
+            Страна футбольного клуба
+            <input list="strana_list" name="starana">
+            <datalist id="strana_list">
+                <option value="Испания">
+                <option value="Италия">
+                <option value="Англия">
+                <option value="Франция">
+                <option value="Россия"> 
+                <option value="Украина">
+                <option value="Португалия">
+                <option value="Польша">
+                <option value="Голландия">
+                <option value="Румыния">
+            </datalist>
+            <br>
+        </p>
+             
+    
+            <p> 
+                Дата создания клуба 
+                <input type="date" name="date"><br>
+            </p>
+    
+    
+                <p> 
+                    Текущий рейтинг клуба 
+                    <input type="number" name="reyting">
+                    <br>
+                </p>
+    
+    
+                    <p>
+                        Клубный цвет
+                        <input type="color" name="color">
+                        <br>
+                    </p>
+    
+    
+                        <p> Ссылка на сайт клуба
+                            <input type="text" name="ssilka">
+                            <br>
+    
+                        </p>
+    
+    
+                            <p>
+                                Эмблема клуба
+                                <input type="file" name="img">
+                                <br>
+                            </p>
+    
+                                <p>
+                                    Участие в Лиге Чемпионов
+                                    <select name="uchastie">
+                                        <option value="da" selected > Да </option>
+                                        <option value="net" > Нет </option>
+                                    </select>
+                                </p>
+    
+                                        <p>
+                                            Телефон
+                                            <input type="tel" name="telephon">
+                                            <br>
+                                        </p>
+    
+                                             <p>
+                                                Пароль
+                                                <input type="password" name="parol">
+                                                <br>
+                                             </p>
+
+    
+
+    
+    
+                                    <input type="submit" value="Сохранить всё">
+    
+</form>
+        
+</body>
+</html>
