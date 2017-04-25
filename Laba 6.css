@@ -1,0 +1,51 @@
+table{
+        border-spacing: 10px 10px;  
+     }
+
+thead{
+        background: linear-gradient(to bottom,#00FF7F,#ADFF2F);
+        text-align: center;
+     }
+
+tbody{
+        background-color: rgb(255,228,225); 
+        text-align: center;
+     }
+
+tfoot{
+        background-color: rgb(255,192,203);
+        background: linear-gradient(to bottom,#F0FFF0,#DA70D6);
+        text-align: center;
+     }
+
+th{
+        border: rgb(0,0,0,0);
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+  }
+
+td{
+        border: rgb(0,0,0,0);
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+  }
+
+tbody tr:nth-child(odd){
+                        background: linear-gradient(to bottom,#EE82EE,#C71585)
+                       }
+
+tbody tr:nth-child(even) {
+                            background: linear-gradient(to bottom,#FFFF00,#9ACD32)                              
+                         }
+
+thead th:hover{
+                background-color: red;
+              }
+
+tbody td:hover{
+                background-color: aqua;
+              }  
+
+tfoot td:hover{
+                background-color: darkblue;
+              }
